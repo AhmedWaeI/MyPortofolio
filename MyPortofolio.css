@@ -124,6 +124,7 @@ p{
     padding: 15px 30px;
     font-size: 20px;
     cursor: pointer;
+    transition: 0.5s;
 }
 .components button:hover
 {
@@ -134,15 +135,22 @@ p{
 .Experience h3
 {
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     margin: 10px;
 
+}
+.Experience h4
+{
+    color: white;
+    font-size: 20px;
+    margin-top:5px ;
+    margin-bottom:5px;
 }
 .Experience p
 {
     color: white;
     font-size: 20px;
-    margin: 10px;
+    margin: 5px;
 }
 .Experience
 {
@@ -150,16 +158,30 @@ p{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+    padding: 20px;
+    height: 100vh;
+    }
 .Experience .intern
 {
-    width: 25%;
+     width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 10%;
+    transition: 0.5s;
+    padding: 20px; /* Add padding */
+    margin: 10px; /* Add margin */
+}
+.Experience .intern:hover
+{
+    background-color: #0c1e39;
+    border-radius:10%;
+    transition: 0.5s;
+    h3 
+    {
+
+        color: #58E8C8;
+    }
+
 }

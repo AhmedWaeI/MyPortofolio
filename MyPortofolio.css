@@ -163,7 +163,6 @@ p{
     }
 .Experience .intern
 {
-     width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,5 +182,44 @@ p{
 
         color: #58E8C8;
     }
+
+}
+.Skills
+{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Skills h2
+{
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+    transition: 0.5s;
+}
+.Skills .containerskills
+{
+    width: 70%;
+    display:flex ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: 0.5s;
+    
+  
+}
+.Skills .containerskills img
+{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    flex: 1 0 calc(15% - 20px);
+}
+.containerskills:hover
+{
+    transition: 0.5s;
+    background-color: #0c1e39;
+    border-radius:2%;
 
 }
